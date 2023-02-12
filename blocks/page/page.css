@@ -1,0 +1,13 @@
+.page {
+  /* ограничения по ширине */
+  min-width: 1024px;
+  max-width: 1280px;
+  /* центрирование контента для экранов больше 1280px */
+  margin: 0 auto;
+  /* предпочтения по шрифтам */
+  font-family: 'Inter', Arial, sans-serif;
+  background-color: var(--color-ground);
+  color: var(--color-fill);
+  display: flex;
+  flex-direction: column;
+}

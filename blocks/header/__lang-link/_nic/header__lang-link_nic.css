@@ -1,0 +1,12 @@
+.header__lang-link_nic {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  align-content: end;
+  text-decoration: none;
+  color: var(--color-fill);
+}
+
+.header__lang-link_nic:hover {
+  text-decoration: underline;
+}

@@ -1,8 +1,10 @@
 :root {
   /* цвета */
-  --color-dark: #1f1f1f;
-  --color-gray: #f2f2f2;
-  --color-blue: #2f80ed;
-  --color-black: #000;
-  --color-white: #fff;
+  --color-ground: #2A2C2F;
+  --color-back: #E5E5E5;
+  --color-fill: #FFF;
+}
+
+.red-border {
+  border: 1px red solid;
 }
