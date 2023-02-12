@@ -9,5 +9,8 @@
   background-color: var(--color-ground);
   color: var(--color-fill);
   display: flex;
+  flex-wrap: nowrap;
   flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
 }
