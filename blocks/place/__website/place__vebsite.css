@@ -1,0 +1,10 @@
+.place__vebsite {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding: 0;
+  margin: 0;
+  margin-right: 28px;
+  align-self: end;
+  /* width: 100%; */
+}
