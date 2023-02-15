@@ -1,4 +1,4 @@
-.header__lang-link_nic {
+.header__nic {
   font-weight: 400;
   font-size: 24px;
   line-height: 117%;
@@ -7,6 +7,12 @@
   color: var(--color-fill);
 }
 
-.header__lang-link_nic:hover {
+.header__nic:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .header__nic {
+    font-size: 22px;
+  }
 }

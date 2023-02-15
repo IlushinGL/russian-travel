@@ -9,3 +9,11 @@
   line-height: 120%;
   text-align: center;
 }
+
+@media (max-width: 768px) {
+  .lead__subtitle {
+    width: 288px;
+    font-size: 16px;
+    margin-top: 16px;
+  }
+}

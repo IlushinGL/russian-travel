@@ -1,0 +1,10 @@
+.cover {
+  display: grid;
+  width: calc(100% - 96px);
+  padding: 0;
+  margin: 0px 48px;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  text-decoration: none;
+  color: var(--color-fill);
+}

@@ -1,8 +1,14 @@
 .header__logo {
   display: block;
-  padding: 0;
-  height: 52px;
+  /* padding: 0; */
   width: 176px;
+  /* width: 176px; */
   object-fit: cover;
   content: url(../../../images/header-logo.svg);
+}
+
+@media (max-width: 768px) {
+  .header__logo {
+    width: 142px;
+  }
 }
