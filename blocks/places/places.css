@@ -14,15 +14,9 @@
   }
 }
 
-/* @media (max-width: 900px) {
-  .places {
-    width: 100vw;
-  }
-} */
-
 @media (max-width: 768px) {
   .places {
     width: 100vw;
-    margin-top: 65px auto;
+    margin: 65px auto;
   }
 }

@@ -4,7 +4,15 @@
   grid-column: 1/2;
   grid-row: 1/2;
   width: 100%;
-  /* background-image: url(../../../images/cover-trains.jpg);
-  background-size: cover; */
   object-fit: cover;
 }
+
+/* .cover__background::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  z-index: 0;
+} */

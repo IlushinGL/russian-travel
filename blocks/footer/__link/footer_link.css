@@ -1,0 +1,28 @@
+.footer__link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 112%;
+  margin-right: 18px;
+  text-decoration: none;
+  color: var(--color-fill);
+}
+
+.footer__link:last-child {
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+.footer__link:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+  .footer__link {
+    margin-bottom: 32px;
+    flex-direction: column;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+  }
+}
