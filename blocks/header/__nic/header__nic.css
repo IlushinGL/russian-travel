@@ -8,7 +8,7 @@
 }
 
 .header__nic:hover {
-  text-decoration: underline;
+  color: var(--color-back);
 }
 
 @media (max-width: 768px) {

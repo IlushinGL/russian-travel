@@ -10,9 +10,9 @@
   align-self: flex-start;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
   .intro {
-    max-width: 90vw;
+    max-width: 92vw;
     min-height: auto;
     margin: 88px auto;
     align-self: center;
