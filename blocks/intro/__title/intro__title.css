@@ -8,3 +8,9 @@
   line-height: 107%;
   text-align: start;
 }
+
+@media (max-width: 768px) {
+  .intro__title {
+    font-size: 32px;
+  }
+}

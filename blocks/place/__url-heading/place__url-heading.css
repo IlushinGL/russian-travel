@@ -4,7 +4,20 @@
   margin-bottom: 12px;
   font-weight: 400;
   font-size: 12px;
-  line-height: 100%;
+  line-height: 170%;
   letter-spacing: 2px;
   color: var(--color-head);
+}
+
+@media (max-width: 1024px) {
+  .place__url-heading {
+    line-height: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .place__url-heading {
+    width: calc(100% - 32px);
+    margin-left: 16px;
+  }
 }

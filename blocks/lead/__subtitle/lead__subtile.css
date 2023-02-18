@@ -10,10 +10,17 @@
   text-align: center;
 }
 
+@media (max-width: 1024px) {
+  .lead__subtitle {
+    margin-bottom: 56px;
+  }
+}
+
 @media (max-width: 768px) {
   .lead__subtitle {
     width: 288px;
     font-size: 16px;
     margin-top: 16px;
+    margin-bottom: 40px;
   }
 }
