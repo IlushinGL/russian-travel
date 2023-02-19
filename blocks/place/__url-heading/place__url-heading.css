@@ -9,13 +9,13 @@
   color: var(--color-head);
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
   .place__url-heading {
     line-height: 100%;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .place__url-heading {
     width: calc(100% - 32px);
     margin-left: 16px;

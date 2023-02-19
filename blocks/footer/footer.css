@@ -4,19 +4,19 @@
   padding: 0;
   margin: 0;
   max-height: 18px;
-  width: 90vw;
+  width: 92vw;
   margin-top: 92px;
   margin-bottom: 24px;
   justify-content: space-between;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
   .footer {
     margin-top: 88px;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .footer {
     max-height: fit-content;
     width: fit-content;

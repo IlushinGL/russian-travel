@@ -9,7 +9,7 @@
   justify-content: space-between;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .header {
     max-height: 42px;
     margin-top: 16px;

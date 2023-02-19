@@ -1,18 +1,14 @@
-/* Штатное решение - флекс с бэкграундом. */
-/* Грид позволяет указаывать картинку в HTML файле  */
 .cover {
-  display: grid;
-  width: 90vw;
+  width: 92vw;
+  height: calc(92vw * (5 / 8));
   padding: 0;
   margin: 0;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto;
-  text-decoration: none;
-  color: var(--color-fill);
+  display: flex;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1279px) {
   .cover {
     width: 100vw;
+    height: calc(100vw * (5 / 8));
   }
 }

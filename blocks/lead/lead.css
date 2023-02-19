@@ -9,13 +9,13 @@
   align-items: center;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1279px) {
   .lead {
     margin-top: 48px;
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 899px) {
   .lead {
     width: 100vw;
   }

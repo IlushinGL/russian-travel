@@ -11,7 +11,7 @@
   color: var(--color-back);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .header__nic {
     font-size: 22px;
   }

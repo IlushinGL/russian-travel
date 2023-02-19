@@ -7,11 +7,10 @@
 }
 
 .footer__copyright::before {
-  /* font-family: sans-serif; */
   content: '\00A9';
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .footer__copyright {
     margin-top: 48px;
     flex-direction: column;
