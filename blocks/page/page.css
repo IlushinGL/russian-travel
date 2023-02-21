@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   /* предпочтения по шрифтам */
-  font-family: Inter;
+  font-family: Inter, Arial, sans-serif;
 
   background-color: var(--color-ground);
   color: var(--color-fill);
