@@ -1,12 +1,13 @@
 .header__logo {
   display: block;
-  width: 176px;
+  height: 100%;
+  max-width: 176px;
   object-fit: cover;
   content: url(../../../images/header-logo.svg);
 }
 
 @media (max-width: 767px) {
   .header__logo {
-    width: 142px;
+    max-width: 142px;
   }
 }

@@ -3,12 +3,17 @@
   font-size: 24px;
   line-height: 117%;
   text-align: end;
+  margin-right: 18px;
   text-decoration: none;
   color: var(--color-fill);
 }
 
+.header__nic:last-child {
+  margin-right: 0;
+}
+
 .header__nic:hover {
-  color: var(--color-back);
+  color: var(--color-head);
 }
 
 @media (max-width: 767px) {

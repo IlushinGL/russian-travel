@@ -10,7 +10,6 @@
   align-items: center;
   text-decoration: none;
   color: var(--color-fill);
-  /* z-index: 10; */
 
   background-image: url(../../../images/cover-trains.jpg);
   background-size: cover;

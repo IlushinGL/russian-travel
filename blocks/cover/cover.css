@@ -1,14 +1,20 @@
 .cover {
-  width: 92vw;
-  height: calc(92vw * (5 / 8));
+  display: flex;
   padding: 0;
   margin: 0;
-  display: flex;
+  width: 100%;
+  aspect-ratio: 8/5;
+  margin-top: 92;
 }
 
-@media (max-width: 1279px) {
+@media (max-width: 1023px) {
   .cover {
-    width: 100vw;
-    height: calc(100vw * (5 / 8));
+    margin-top: 90;
+  }
+}
+
+@media (max-width: 767px) {
+  .cover {
+    margin-top: 66;
   }
 }
