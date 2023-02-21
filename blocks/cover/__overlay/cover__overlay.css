@@ -8,6 +8,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
   text-decoration: none;
   color: var(--color-fill);
 
@@ -24,6 +25,7 @@
   left: 0;
   height: 100%;
   width: 100%;
+
   background-color: var(--color-ground);
   opacity: 0.3;
   transition: opacity 0.5s linear;

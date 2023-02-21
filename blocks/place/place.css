@@ -1,13 +1,14 @@
 .place {
   display: grid;
-  grid-template-columns: 48% auto;
-  grid-template-rows: auto auto;
-  column-gap: 4%;
-  row-gap: 48px;
   width: 100%;
   padding: 0;
   margin: 0;
   margin-bottom: 80px;
+
+  grid-template-columns: 48% auto;
+  grid-template-rows: auto auto;
+  column-gap: 4%;
+  row-gap: 48px;
 }
 
 .place:last-child {
@@ -23,6 +24,7 @@
 @media (max-width: 767px) {
   .place {
     margin-bottom: 50px;
+
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, auto);
     row-gap: 32px;
