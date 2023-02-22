@@ -2,22 +2,27 @@
   display: flex;
   max-width: 690px;
   padding: 0;
-  margin: 0;
   margin: 92px auto 92px 100px;
   flex-direction: column;
   align-items: start;
 }
 
+@media (max-width: 1279px) {
+  .intro {
+    margin: 92px auto 92px 48px;
+  }
+}
+
 @media (max-width: 1023px) {
   .intro {
-    max-width: calc(100% - 48px);
+    max-width: 720px;
     margin: 88px 24px;
   }
 }
 
 @media (max-width: 767px) {
   .intro {
-    max-width: calc(100% - 32px);
+    max-width: 288px;
     margin: 64px 16px;
   }
 }
